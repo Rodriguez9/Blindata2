@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272CE803205D369B002F1E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE802205D369B002F1E0B /* AppDelegate.m */; };
+		272CE806205D369C002F1E0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE805205D369C002F1E0B /* ViewController.m */; };
+		272CE809205D369C002F1E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE807205D369C002F1E0B /* Main.storyboard */; };
+		272CE80B205D369C002F1E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272CE80A205D369C002F1E0B /* Assets.xcassets */; };
+		272CE80E205D369C002F1E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE80C205D369C002F1E0B /* LaunchScreen.storyboard */; };
+		272CE811205D369C002F1E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE810205D369C002F1E0B /* main.m */; };
+		272CE81B205D369C002F1E0B /* BlindataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE81A205D369C002F1E0B /* BlindataTests.m */; };
+		272CE826205D369C002F1E0B /* BlindataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE825205D369C002F1E0B /* BlindataUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272CE817205D369C002F1E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272CE7F6205D369B002F1E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272CE7FD205D369B002F1E0B;
+			remoteInfo = Blindata;
+		};
+		272CE822205D369C002F1E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272CE7F6205D369B002F1E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272CE7FD205D369B002F1E0B;
+			remoteInfo = Blindata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272CE7FE205D369B002F1E0B /* Blindata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blindata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE801205D369B002F1E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		272CE802205D369B002F1E0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		272CE804205D369C002F1E0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		272CE805205D369C002F1E0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		272CE808205D369C002F1E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		272CE80A205D369C002F1E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272CE80D205D369C002F1E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272CE80F205D369C002F1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE810205D369C002F1E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		272CE816205D369C002F1E0B /* BlindataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE81A205D369C002F1E0B /* BlindataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlindataTests.m; sourceTree = "<group>"; };
+		272CE81C205D369C002F1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE821205D369C002F1E0B /* BlindataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE825205D369C002F1E0B /* BlindataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlindataUITests.m; sourceTree = "<group>"; };
+		272CE827205D369C002F1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272CE7FB205D369B002F1E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE813205D369C002F1E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE81E205D369C002F1E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272CE7F5205D369B002F1E0B = {
+			isa = PBXGroup;
+			children = (
+				272CE800205D369B002F1E0B /* Blindata */,
+				272CE819205D369C002F1E0B /* BlindataTests */,
+				272CE824205D369C002F1E0B /* BlindataUITests */,
+				272CE7FF205D369B002F1E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272CE7FF205D369B002F1E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272CE7FE205D369B002F1E0B /* Blindata.app */,
+				272CE816205D369C002F1E0B /* BlindataTests.xctest */,
+				272CE821205D369C002F1E0B /* BlindataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272CE800205D369B002F1E0B /* Blindata */ = {
+			isa = PBXGroup;
+			children = (
+				272CE801205D369B002F1E0B /* AppDelegate.h */,
+				272CE802205D369B002F1E0B /* AppDelegate.m */,
+				272CE804205D369C002F1E0B /* ViewController.h */,
+				272CE805205D369C002F1E0B /* ViewController.m */,
+				272CE807205D369C002F1E0B /* Main.storyboard */,
+				272CE80A205D369C002F1E0B /* Assets.xcassets */,
+				272CE80C205D369C002F1E0B /* LaunchScreen.storyboard */,
+				272CE80F205D369C002F1E0B /* Info.plist */,
+				272CE810205D369C002F1E0B /* main.m */,
+			);
+			path = Blindata;
+			sourceTree = "<group>";
+		};
+		272CE819205D369C002F1E0B /* BlindataTests */ = {
+			isa = PBXGroup;
+			children = (
+				272CE81A205D369C002F1E0B /* BlindataTests.m */,
+				272CE81C205D369C002F1E0B /* Info.plist */,
+			);
+			path = BlindataTests;
+			sourceTree = "<group>";
+		};
+		272CE824205D369C002F1E0B /* BlindataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				272CE825205D369C002F1E0B /* BlindataUITests.m */,
+				272CE827205D369C002F1E0B /* Info.plist */,
+			);
+			path = BlindataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272CE7FD205D369B002F1E0B /* Blindata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE82A205D369C002F1E0B /* Build configuration list for PBXNativeTarget "Blindata" */;
+			buildPhases = (
+				272CE7FA205D369B002F1E0B /* Sources */,
+				272CE7FB205D369B002F1E0B /* Frameworks */,
+				272CE7FC205D369B002F1E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blindata;
+			productName = Blindata;
+			productReference = 272CE7FE205D369B002F1E0B /* Blindata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272CE815205D369C002F1E0B /* BlindataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE82D205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataTests" */;
+			buildPhases = (
+				272CE812205D369C002F1E0B /* Sources */,
+				272CE813205D369C002F1E0B /* Frameworks */,
+				272CE814205D369C002F1E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272CE818205D369C002F1E0B /* PBXTargetDependency */,
+			);
+			name = BlindataTests;
+			productName = BlindataTests;
+			productReference = 272CE816205D369C002F1E0B /* BlindataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		272CE820205D369C002F1E0B /* BlindataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE830205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataUITests" */;
+			buildPhases = (
+				272CE81D205D369C002F1E0B /* Sources */,
+				272CE81E205D369C002F1E0B /* Frameworks */,
+				272CE81F205D369C002F1E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272CE823205D369C002F1E0B /* PBXTargetDependency */,
+			);
+			name = BlindataUITests;
+			productName = BlindataUITests;
+			productReference = 272CE821205D369C002F1E0B /* BlindataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272CE7F6205D369B002F1E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YZH;
+				TargetAttributes = {
+					272CE7FD205D369B002F1E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					272CE815205D369C002F1E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 272CE7FD205D369B002F1E0B;
+					};
+					272CE820205D369C002F1E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 272CE7FD205D369B002F1E0B;
+					};
+				};
+			};
+			buildConfigurationList = 272CE7F9205D369B002F1E0B /* Build configuration list for PBXProject "Blindata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272CE7F5205D369B002F1E0B;
+			productRefGroup = 272CE7FF205D369B002F1E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272CE7FD205D369B002F1E0B /* Blindata */,
+				272CE815205D369C002F1E0B /* BlindataTests */,
+				272CE820205D369C002F1E0B /* BlindataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272CE7FC205D369B002F1E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE80E205D369C002F1E0B /* LaunchScreen.storyboard in Resources */,
+				272CE80B205D369C002F1E0B /* Assets.xcassets in Resources */,
+				272CE809205D369C002F1E0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE814205D369C002F1E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE81F205D369C002F1E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272CE7FA205D369B002F1E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE806205D369C002F1E0B /* ViewController.m in Sources */,
+				272CE811205D369C002F1E0B /* main.m in Sources */,
+				272CE803205D369B002F1E0B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE812205D369C002F1E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE81B205D369C002F1E0B /* BlindataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE81D205D369C002F1E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE826205D369C002F1E0B /* BlindataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272CE818205D369C002F1E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272CE7FD205D369B002F1E0B /* Blindata */;
+			targetProxy = 272CE817205D369C002F1E0B /* PBXContainerItemProxy */;
+		};
+		272CE823205D369C002F1E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272CE7FD205D369B002F1E0B /* Blindata */;
+			targetProxy = 272CE822205D369C002F1E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272CE807205D369C002F1E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272CE808205D369C002F1E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272CE80C205D369C002F1E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272CE80D205D369C002F1E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272CE828205D369C002F1E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		272CE829205D369C002F1E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272CE82B205D369C002F1E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = Blindata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Blindata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272CE82C205D369C002F1E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = Blindata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Blindata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		272CE82E205D369C002F1E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = BlindataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BlindataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blindata.app/Blindata";
+			};
+			name = Debug;
+		};
+		272CE82F205D369C002F1E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = BlindataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BlindataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blindata.app/Blindata";
+			};
+			name = Release;
+		};
+		272CE831205D369C002F1E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = BlindataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BlindataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blindata;
+			};
+			name = Debug;
+		};
+		272CE832205D369C002F1E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UK53EGXY3;
+				INFOPLIST_FILE = BlindataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BlindataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blindata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272CE7F9205D369B002F1E0B /* Build configuration list for PBXProject "Blindata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE828205D369C002F1E0B /* Debug */,
+				272CE829205D369C002F1E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272CE82A205D369C002F1E0B /* Build configuration list for PBXNativeTarget "Blindata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE82B205D369C002F1E0B /* Debug */,
+				272CE82C205D369C002F1E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272CE82D205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE82E205D369C002F1E0B /* Debug */,
+				272CE82F205D369C002F1E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272CE830205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE831205D369C002F1E0B /* Debug */,
+				272CE832205D369C002F1E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272CE7F6205D369B002F1E0B /* Project object */;
+}
