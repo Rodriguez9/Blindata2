@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19951522197BF7272415797A /* libPods-Blindata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C123AA2E46EEF783B496DC4A /* libPods-Blindata.a */; };
 		272CE803205D369B002F1E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE802205D369B002F1E0B /* AppDelegate.m */; };
 		272CE806205D369C002F1E0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE805205D369C002F1E0B /* ViewController.m */; };
 		272CE809205D369C002F1E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE807205D369C002F1E0B /* Main.storyboard */; };
@@ -15,6 +16,16 @@
 		272CE811205D369C002F1E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE810205D369C002F1E0B /* main.m */; };
 		272CE81B205D369C002F1E0B /* BlindataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE81A205D369C002F1E0B /* BlindataTests.m */; };
 		272CE826205D369C002F1E0B /* BlindataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE825205D369C002F1E0B /* BlindataUITests.m */; };
+		272CE840205D45E8002F1E0B /* SLiderMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE83F205D45E8002F1E0B /* SLiderMenuViewController.m */; };
+		272CE843205D460D002F1E0B /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE842205D460D002F1E0B /* UserViewController.m */; };
+		272CE846205D463E002F1E0B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272CE845205D463E002F1E0B /* HomeViewController.m */; };
+		27536180210D962200B4DFFF /* Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753617F210D962200B4DFFF /* Bucket.m */; };
+		27536185210DA64A00B4DFFF /* NavigationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27536184210DA64A00B4DFFF /* NavigationHelper.m */; };
+		27536188210DAFF700B4DFFF /* UINavigationController+Passable.m in Sources */ = {isa = PBXBuildFile; fileRef = 27536187210DAFF700B4DFFF /* UINavigationController+Passable.m */; };
+		2777675A211B39D9001633AF /* AFNetworkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27776759211B39D9001633AF /* AFNetworkingHelper.m */; };
+		27F2DA0D20CEDCA50001C3C1 /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2DA0C20CEDCA50001C3C1 /* UIViewController+Base.m */; };
+		AD03088A93FFF7E84B795891 /* libPods-BlindataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9281260732345F8F24E27D0 /* libPods-BlindataTests.a */; };
+		EEFF81D103D0B669BA0FAAD2 /* libPods-BlindataUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A9CBA2DD3404DDD9818659 /* libPods-BlindataUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		272CE7FE205D369B002F1E0B /* Blindata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blindata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FB30C9D35AC30388744779 /* Pods-BlindataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindataUITests/Pods-BlindataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24A9CBA2DD3404DDD9818659 /* libPods-BlindataUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindataUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE7FE205D369B002F1E0B /* 相亲角.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "相亲角.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272CE801205D369B002F1E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		272CE802205D369B002F1E0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		272CE804205D369C002F1E0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -51,6 +64,32 @@
 		272CE821205D369C002F1E0B /* BlindataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272CE825205D369C002F1E0B /* BlindataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlindataUITests.m; sourceTree = "<group>"; };
 		272CE827205D369C002F1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE83E205D45E8002F1E0B /* SLiderMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLiderMenuViewController.h; sourceTree = "<group>"; };
+		272CE83F205D45E8002F1E0B /* SLiderMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLiderMenuViewController.m; sourceTree = "<group>"; };
+		272CE841205D460D002F1E0B /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		272CE842205D460D002F1E0B /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		272CE844205D463E002F1E0B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		272CE845205D463E002F1E0B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2753617E210D962200B4DFFF /* Bucket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bucket.h; sourceTree = "<group>"; };
+		2753617F210D962200B4DFFF /* Bucket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bucket.m; sourceTree = "<group>"; };
+		27536182210DA57B00B4DFFF /* Passable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passable.h; sourceTree = "<group>"; };
+		27536183210DA64A00B4DFFF /* NavigationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationHelper.h; sourceTree = "<group>"; };
+		27536184210DA64A00B4DFFF /* NavigationHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationHelper.m; sourceTree = "<group>"; };
+		27536186210DAFF700B4DFFF /* UINavigationController+Passable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Passable.h"; sourceTree = "<group>"; };
+		27536187210DAFF700B4DFFF /* UINavigationController+Passable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Passable.m"; sourceTree = "<group>"; };
+		27776758211B39D9001633AF /* AFNetworkingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingHelper.h; sourceTree = "<group>"; };
+		27776759211B39D9001633AF /* AFNetworkingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingHelper.m; sourceTree = "<group>"; };
+		2777675B211B3AD6001633AF /* URLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacro.h; sourceTree = "<group>"; };
+		27F2DA0A20CED0950001C3C1 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		27F2DA0B20CEDCA50001C3C1 /* UIViewController+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Base.h"; sourceTree = "<group>"; };
+		27F2DA0C20CEDCA50001C3C1 /* UIViewController+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
+		5390BC9C211A7062C4D336C7 /* Pods-BlindataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindataUITests/Pods-BlindataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82E54A1592AC8E718A125481 /* Pods-BlindataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindataTests/Pods-BlindataTests.release.xcconfig"; sourceTree = "<group>"; };
+		89EFB1941D1E2E8B7D0F14A4 /* Pods-Blindata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blindata.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blindata/Pods-Blindata.release.xcconfig"; sourceTree = "<group>"; };
+		BA59931C2AA3A8C30384D8A0 /* Pods-BlindataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindataTests/Pods-BlindataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C123AA2E46EEF783B496DC4A /* libPods-Blindata.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Blindata.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9281260732345F8F24E27D0 /* libPods-BlindataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDB081FBF5815AB693236E /* Pods-Blindata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blindata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blindata/Pods-Blindata.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19951522197BF7272415797A /* libPods-Blindata.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD03088A93FFF7E84B795891 /* libPods-BlindataTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFF81D103D0B669BA0FAAD2 /* libPods-BlindataUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +127,15 @@
 				272CE819205D369C002F1E0B /* BlindataTests */,
 				272CE824205D369C002F1E0B /* BlindataUITests */,
 				272CE7FF205D369B002F1E0B /* Products */,
+				81FED8BDAC042D810964ACC7 /* Pods */,
+				29A18AA105A6903368718747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		272CE7FF205D369B002F1E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				272CE7FE205D369B002F1E0B /* Blindata.app */,
+				272CE7FE205D369B002F1E0B /* 相亲角.app */,
 				272CE816205D369C002F1E0B /* BlindataTests.xctest */,
 				272CE821205D369C002F1E0B /* BlindataUITests.xctest */,
 			);
@@ -101,13 +145,14 @@
 		272CE800205D369B002F1E0B /* Blindata */ = {
 			isa = PBXGroup;
 			children = (
-				272CE801205D369B002F1E0B /* AppDelegate.h */,
-				272CE802205D369B002F1E0B /* AppDelegate.m */,
-				272CE804205D369C002F1E0B /* ViewController.h */,
-				272CE805205D369C002F1E0B /* ViewController.m */,
-				272CE807205D369C002F1E0B /* Main.storyboard */,
-				272CE80A205D369C002F1E0B /* Assets.xcassets */,
-				272CE80C205D369C002F1E0B /* LaunchScreen.storyboard */,
+				272CE83A205D42C5002F1E0B /* AppDelegate */,
+				272CE839205D42C2002F1E0B /* Models */,
+				272CE838205D42C0002F1E0B /* Macro */,
+				272CE837205D42BE002F1E0B /* General */,
+				272CE836205D42BC002F1E0B /* Helpers */,
+				272CE835205D42BA002F1E0B /* Vendors */,
+				272CE834205D42B7002F1E0B /* Sections */,
+				272CE833205D42B5002F1E0B /* Resources */,
 				272CE80F205D369C002F1E0B /* Info.plist */,
 				272CE810205D369C002F1E0B /* main.m */,
 			);
@@ -132,6 +177,159 @@
 			path = BlindataUITests;
 			sourceTree = "<group>";
 		};
+		272CE833205D42B5002F1E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				272CE807205D369C002F1E0B /* Main.storyboard */,
+				272CE80A205D369C002F1E0B /* Assets.xcassets */,
+				272CE80C205D369C002F1E0B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		272CE834205D42B7002F1E0B /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				272CE83E205D45E8002F1E0B /* SLiderMenuViewController.h */,
+				272CE83F205D45E8002F1E0B /* SLiderMenuViewController.m */,
+				272CE848205D4F48002F1E0B /* Home */,
+				272CE847205D4F40002F1E0B /* User */,
+				272CE804205D369C002F1E0B /* ViewController.h */,
+				272CE805205D369C002F1E0B /* ViewController.m */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		272CE835205D42BA002F1E0B /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		272CE836205D42BC002F1E0B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27536183210DA64A00B4DFFF /* NavigationHelper.h */,
+				27536184210DA64A00B4DFFF /* NavigationHelper.m */,
+				27776758211B39D9001633AF /* AFNetworkingHelper.h */,
+				27776759211B39D9001633AF /* AFNetworkingHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		272CE837205D42BE002F1E0B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				272CE83D205D4471002F1E0B /* Views */,
+				272CE83C205D446F002F1E0B /* Classes */,
+				272CE83B205D446C002F1E0B /* Categories */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		272CE838205D42C0002F1E0B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				27F2DA0A20CED0950001C3C1 /* UtilsMacro.h */,
+				2777675B211B3AD6001633AF /* URLMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		272CE839205D42C2002F1E0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		272CE83A205D42C5002F1E0B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				272CE801205D369B002F1E0B /* AppDelegate.h */,
+				272CE802205D369B002F1E0B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		272CE83B205D446C002F1E0B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				27F2DA0C20CEDCA50001C3C1 /* UIViewController+Base.m */,
+				27F2DA0B20CEDCA50001C3C1 /* UIViewController+Base.h */,
+				27536186210DAFF700B4DFFF /* UINavigationController+Passable.h */,
+				27536187210DAFF700B4DFFF /* UINavigationController+Passable.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		272CE83C205D446F002F1E0B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27536181210D9D3200B4DFFF /* Passable */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		272CE83D205D4471002F1E0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		272CE847205D4F40002F1E0B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				272CE842205D460D002F1E0B /* UserViewController.m */,
+				272CE841205D460D002F1E0B /* UserViewController.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		272CE848205D4F48002F1E0B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				272CE844205D463E002F1E0B /* HomeViewController.h */,
+				272CE845205D463E002F1E0B /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		27536181210D9D3200B4DFFF /* Passable */ = {
+			isa = PBXGroup;
+			children = (
+				2753617E210D962200B4DFFF /* Bucket.h */,
+				2753617F210D962200B4DFFF /* Bucket.m */,
+				27536182210DA57B00B4DFFF /* Passable.h */,
+			);
+			path = Passable;
+			sourceTree = "<group>";
+		};
+		29A18AA105A6903368718747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C123AA2E46EEF783B496DC4A /* libPods-Blindata.a */,
+				C9281260732345F8F24E27D0 /* libPods-BlindataTests.a */,
+				24A9CBA2DD3404DDD9818659 /* libPods-BlindataUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81FED8BDAC042D810964ACC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EADDB081FBF5815AB693236E /* Pods-Blindata.debug.xcconfig */,
+				89EFB1941D1E2E8B7D0F14A4 /* Pods-Blindata.release.xcconfig */,
+				BA59931C2AA3A8C30384D8A0 /* Pods-BlindataTests.debug.xcconfig */,
+				82E54A1592AC8E718A125481 /* Pods-BlindataTests.release.xcconfig */,
+				08FB30C9D35AC30388744779 /* Pods-BlindataUITests.debug.xcconfig */,
+				5390BC9C211A7062C4D336C7 /* Pods-BlindataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272CE82A205D369C002F1E0B /* Build configuration list for PBXNativeTarget "Blindata" */;
 			buildPhases = (
+				953BA1BA6FEB84DD1CACCACD /* [CP] Check Pods Manifest.lock */,
 				272CE7FA205D369B002F1E0B /* Sources */,
 				272CE7FB205D369B002F1E0B /* Frameworks */,
 				272CE7FC205D369B002F1E0B /* Resources */,
+				BD09301B9E97C2C581B294AD /* [CP] Embed Pods Frameworks */,
+				44D08600AFC7BC559C816AA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,16 +350,19 @@
 			);
 			name = Blindata;
 			productName = Blindata;
-			productReference = 272CE7FE205D369B002F1E0B /* Blindata.app */;
+			productReference = 272CE7FE205D369B002F1E0B /* 相亲角.app */;
 			productType = "com.apple.product-type.application";
 		};
 		272CE815205D369C002F1E0B /* BlindataTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272CE82D205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataTests" */;
 			buildPhases = (
+				5AF9742B406D579FF36D1DBB /* [CP] Check Pods Manifest.lock */,
 				272CE812205D369C002F1E0B /* Sources */,
 				272CE813205D369C002F1E0B /* Frameworks */,
 				272CE814205D369C002F1E0B /* Resources */,
+				18ABEB27F1BE76B7FB93460E /* [CP] Embed Pods Frameworks */,
+				CD22B2F0807285578A7F47A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272CE830205D369C002F1E0B /* Build configuration list for PBXNativeTarget "BlindataUITests" */;
 			buildPhases = (
+				EFB3DEEC73E32F69865ACF1E /* [CP] Check Pods Manifest.lock */,
 				272CE81D205D369C002F1E0B /* Sources */,
 				272CE81E205D369C002F1E0B /* Frameworks */,
 				272CE81F205D369C002F1E0B /* Resources */,
+				01B1E1698780729022D03C1A /* [CP] Embed Pods Frameworks */,
+				7399EA021B18CBC5D5CACBCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +467,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B1E1698780729022D03C1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindataUITests/Pods-BlindataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18ABEB27F1BE76B7FB93460E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindataTests/Pods-BlindataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44D08600AFC7BC559C816AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blindata/Pods-Blindata-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blindata/Pods-Blindata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF9742B406D579FF36D1DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlindataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7399EA021B18CBC5D5CACBCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindataUITests/Pods-BlindataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953BA1BA6FEB84DD1CACCACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blindata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD09301B9E97C2C581B294AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blindata/Pods-Blindata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD22B2F0807285578A7F47A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindataTests/Pods-BlindataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB3DEEC73E32F69865ACF1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlindataUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		272CE7FA205D369B002F1E0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272CE840205D45E8002F1E0B /* SLiderMenuViewController.m in Sources */,
+				27536180210D962200B4DFFF /* Bucket.m in Sources */,
+				272CE843205D460D002F1E0B /* UserViewController.m in Sources */,
 				272CE806205D369C002F1E0B /* ViewController.m in Sources */,
+				2777675A211B39D9001633AF /* AFNetworkingHelper.m in Sources */,
+				27536188210DAFF700B4DFFF /* UINavigationController+Passable.m in Sources */,
+				27536185210DA64A00B4DFFF /* NavigationHelper.m in Sources */,
 				272CE811205D369C002F1E0B /* main.m in Sources */,
 				272CE803205D369B002F1E0B /* AppDelegate.m in Sources */,
+				27F2DA0D20CEDCA50001C3C1 /* UIViewController+Base.m in Sources */,
+				272CE846205D463E002F1E0B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,34 +793,39 @@
 		};
 		272CE82B205D369C002F1E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADDB081FBF5815AB693236E /* Pods-Blindata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UK53EGXY3;
 				INFOPLIST_FILE = Blindata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Blindata";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "相亲角";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		272CE82C205D369C002F1E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EFB1941D1E2E8B7D0F14A4 /* Pods-Blindata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UK53EGXY3;
 				INFOPLIST_FILE = Blindata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Blindata";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "相亲角";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		272CE82E205D369C002F1E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA59931C2AA3A8C30384D8A0 /* Pods-BlindataTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +841,7 @@
 		};
 		272CE82F205D369C002F1E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E54A1592AC8E718A125481 /* Pods-BlindataTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +857,7 @@
 		};
 		272CE831205D369C002F1E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FB30C9D35AC30388744779 /* Pods-BlindataUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UK53EGXY3;
@@ -500,6 +872,7 @@
 		};
 		272CE832205D369C002F1E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5390BC9C211A7062C4D336C7 /* Pods-BlindataUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UK53EGXY3;
