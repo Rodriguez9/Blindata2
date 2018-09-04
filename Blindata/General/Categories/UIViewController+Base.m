@@ -21,7 +21,7 @@
     }
     return nil;
 }
-- (IBAction)test:(UIButton *)sender {
+- (IBAction)test:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
