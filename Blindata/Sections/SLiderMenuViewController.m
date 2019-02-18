@@ -11,7 +11,9 @@
 #import <Masonry.h>
 @interface SLiderMenuViewController ()
 
+//User
 @property(nonatomic,weak)IBOutlet UIView *manuContainer;
+//Home
 @property(nonatomic,weak)IBOutlet UIView *contantContainer;
 
 @property(nonatomic,strong)IBOutlet UIButton *maskButton;

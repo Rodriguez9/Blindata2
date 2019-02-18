@@ -171,7 +171,6 @@
 				272CE838205D42C0002F1E0B /* Macro */,
 				272CE837205D42BE002F1E0B /* General */,
 				272CE836205D42BC002F1E0B /* Helpers */,
-				272CE835205D42BA002F1E0B /* Vendors */,
 				272CE834205D42B7002F1E0B /* Sections */,
 				272CE833205D42B5002F1E0B /* Resources */,
 				272CE80F205D369C002F1E0B /* Info.plist */,
@@ -223,13 +222,6 @@
 			path = Sections;
 			sourceTree = "<group>";
 		};
-		272CE835205D42BA002F1E0B /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
 		272CE836205D42BC002F1E0B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +240,6 @@
 		272CE837205D42BE002F1E0B /* General */ = {
 			isa = PBXGroup;
 			children = (
-				272CE83D205D4471002F1E0B /* Views */,
 				272CE83C205D446F002F1E0B /* Classes */,
 				272CE83B205D446C002F1E0B /* Categories */,
 			);
@@ -303,13 +294,6 @@
 				27536181210D9D3200B4DFFF /* Passable */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		272CE83D205D4471002F1E0B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		272CE847205D4F40002F1E0B /* User */ = {
